@@ -69,7 +69,7 @@
  *           It will never use slow memory, but it won't attempt to mlock
  * never   - If we fail to allocate large pages we will print an error and exit.
  */
-"use_slow_memory" : "warn",
+"use_slow_memory" : "never",
 
 /*
  * NiceHash mode
@@ -152,7 +152,7 @@
  * h_print_time - How often, in seconds, should we print a hashrate report if verbose_level is set to 4.
  *                This option has no effect if verbose_level is not 4.
  */
-"h_print_time" : 120,
+"h_print_time" : 20,
 
 /*
  * Daemon mode
